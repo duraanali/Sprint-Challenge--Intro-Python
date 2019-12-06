@@ -68,7 +68,7 @@ print("All names uppercase:")
 
 g = humans[:]
 
-g = [((human.name).upper(), human.age + 5) for human in humans]
+g = [Human(human.name.upper(), human.age + 5) for human in humans]
 
 print(g)
 

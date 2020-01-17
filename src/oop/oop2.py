@@ -3,6 +3,7 @@
 # Also change it so the num_wheels defaults to 4 if not specified when the
 # object is constructed.
 
+
 class GroundVehicle():
     def __init__(self, num_wheels):
         self.num_wheels = num_wheels
@@ -27,6 +28,6 @@ vehicles = [
     Motorcycle(),
 ]
 
-# Go through the vehicles list and print the result of calling drive() on each.
+# Go through the vehicles lst and print the result of calling drive() on each.
 
 # TODO
